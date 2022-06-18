@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 --
+# -*- coding: UTF-8 -*-
 import keyboard as kb
 import random as r
 import sys
