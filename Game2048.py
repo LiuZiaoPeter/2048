@@ -75,7 +75,7 @@ def reverse():
 
 def slash_reverse():
     """
-    reverse nums by \\slash\\ direction
+    reverse nums by slash direction
     """
     global nums
     nums = [
