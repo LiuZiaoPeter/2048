@@ -50,14 +50,14 @@ def left():
         # move zeros
         for j in range(nums[i].count(0)):
             nums[i].remove(0)
-            nums[i].append(0)
+            nums[i] += 0
         # get two numbers into one
         for j in range(3):
             if nums[i][j] == nums[i][j + 1]:
                 nums[i][j] *= 2
                 score += nums[i][j]
                 nums[i].pop(j + 1)
-                nums[i].append(0)
+                nums[i] += 0
 
 
 def reverse():
